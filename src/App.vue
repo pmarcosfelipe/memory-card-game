@@ -28,8 +28,8 @@ export default {
     methods: {
         loginMethod: function () {
             window.location.href = 'game-board'
-            
-            // Gravar nome no localStorage 
+
+            // Utilizar localStorage para armazenar dados localmente 
 
         //     this.$http.post('http://localhost:8080/', { name: this.name })
         //     .then(function (response) {
