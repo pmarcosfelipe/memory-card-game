@@ -1,6 +1,6 @@
-# memory-card-game
+# Memory Card Game
 
-## Desafio: Criar um jogo da memória utilizando VueJS##
+## Desafio: Criar um jogo da memória utilizando VueJS
 
 ## 1.1. Purpose ##
 
@@ -31,10 +31,10 @@ memory-card-game
 │   └── ...
 ├── src
 │   ├── assets
-|	|	├── logo.png
+|   |   ├── logo.png
 │   │   └── ...
-|	├── App.vue
-|	├── GameBoard.vue
+|   ├── App.vue
+|   ├── GameBoard.vue
 │   └── main.js
 │
 ├── index.html
