@@ -65,9 +65,16 @@ For detailed explanation on how things work, consult the [docs for vue-loader](h
 
 ## References Links
 
+https://vue-loader.vuejs.org/pt_BR/start/setup.html
+
 https://vuejsexamples.com/tag/bootstrap/
+
 https://vuejsexamples.com/memory-card-game-with-vuejs/
+
 https://vuejs.org/v2/api/#data
+
 https://codepen.io/icebob/pen/RRLvAg
+
 https://www.npmjs.com/package/dwy-vue-session
+
 https://www.npmjs.com/package/vue-session
