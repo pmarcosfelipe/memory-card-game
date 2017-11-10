@@ -21,7 +21,7 @@ Outra informação importante é um ranking de quais usuários utilizaram menos 
 
 
 
-## File Structure ##
+## 1.3 File Structure ##
 
 ```
 memory-card-game
@@ -44,7 +44,7 @@ memory-card-game
 └── webpack.config.prod.js
 ```
 
-## Build Setup
+## 1.4 Build Setup
 
 ``` bash
 git clone https://github.com/pmarcosfelipe/memory-card-game.git
@@ -63,7 +63,7 @@ npm run build
 For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
 
 
-## References Links
+## 1.5 References Links
 
 https://vue-loader.vuejs.org/pt_BR/start/setup.html
 
