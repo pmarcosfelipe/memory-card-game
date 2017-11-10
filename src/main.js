@@ -19,13 +19,12 @@ const routes = {
 	'/game-board': GameBoard
 };
 
-var router = new VueRouter();
-
-router.map({
-    '': {
-        component: App
-    }
-});
+// new VueRouter({
+//   routes: [
+//     { path: '/post', component: App }
+//     { path: '/game-board', component: GameBoard }
+//   ],
+// });
 
 
 new Vue({

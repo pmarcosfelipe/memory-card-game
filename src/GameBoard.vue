@@ -26,18 +26,18 @@
 "use strict";
 
 var CardTypes = [
-{ name: "placeholder 1", image: "../src/assets/placeimg_1.jpg" },
-    // { name: "placeholder 2", image: "../src/assets/placeimg_2.jpg" },
-    // { name: "placeholder 3", image: "../src/assets/placeimg_3.jpg" },
-    // { name: "placeholder 4", image: "../src/assets/placeimg_4.jpg" },
-    // { name: "placeholder 5", image: "../src/assets/placeimg_5.jpg" },
-    // { name: "placeholder 6", image: "../src/assets/placeimg_6.jpg" },
-    // { name: "placeholder 7", image: "../src/assets/placeimg_7.jpg" },
-    // { name: "placeholder 8", image: "../src/assets/placeimg_8.jpg" },
-    // { name: "placeholder 9", image: "../src/assets/placeimg_9.jpg" },
-    // { name: "placeholder 10", image: "../src/assets/placeimg_10.jpg" },
-    // { name: "placeholder 11", image: "../src/assets/placeimg_11.jpg" },
-    // { name: "placeholder 12", image: "../src/assets/placeimg_12.jpg" }
+    { name: "placeholder 1", image: "../src/assets/placeimg_1.jpg" },
+    { name: "placeholder 2", image: "../src/assets/placeimg_2.jpg" },
+    { name: "placeholder 3", image: "../src/assets/placeimg_3.jpg" },
+    { name: "placeholder 4", image: "../src/assets/placeimg_4.jpg" },
+    { name: "placeholder 5", image: "../src/assets/placeimg_5.jpg" },
+    { name: "placeholder 6", image: "../src/assets/placeimg_6.jpg" },
+    { name: "placeholder 7", image: "../src/assets/placeimg_7.jpg" },
+    { name: "placeholder 8", image: "../src/assets/placeimg_8.jpg" },
+    { name: "placeholder 9", image: "../src/assets/placeimg_9.jpg" },
+    { name: "placeholder 10", image: "../src/assets/placeimg_10.jpg" },
+    { name: "placeholder 11", image: "../src/assets/placeimg_11.jpg" },
+    { name: "placeholder 12", image: "../src/assets/placeimg_12.jpg" }
     ];
 
     var shuffleCards = function shuffleCards() {

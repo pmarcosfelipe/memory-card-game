@@ -27,18 +27,21 @@ export default {
 
     methods: {
         loginMethod: function () {
-            alert('test func');
-            this.$http.post('http://localhost:8080/game-board', { name: this.name })
-            .then(function (response) {
-                if (response.status === 200 && 'token' in response.body) {
-                  this.$session.start()
-                  this.$session.set('jwt', response.body.token)
-                  Vue.http.headers.common['Authorization'] = 'Bearer ' + response.body.token
-                  this.$router.push('/game-board')
-              }
-          }, function (err) {
-            console.log('err', err)
-        })
+            window.location.href = 'game-board'
+            
+            // Gravar nome no localStorage 
+
+        //     this.$http.post('http://localhost:8080/', { name: this.name })
+        //     .then(function (response) {
+        //         if (response.status === 200 && 'token' in response.body) {
+        //           this.$session.start()
+        //           this.$session.set('jwt', response.body.token)
+        //           Vue.http.headers.common['Authorization'] = 'Bearer ' + response.body.token
+        //           this.$router.push('/game-board')
+        //       }
+        //   }, function (err) {
+        //     console.log('err', err)
+        // })
         }
     }
 }
